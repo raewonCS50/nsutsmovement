@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity">
+
+    <!-- TextView for displaying total plank time -->
+    <TextView
+        android:id="@+id/tvTotalPlankTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 플랭크 시간: 0초"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp" />
+
+    <!-- Reset Button to reset plank time -->
+    <Button
+        android:id="@+id/btnResetPlankTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시간 초기화"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalPlankTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

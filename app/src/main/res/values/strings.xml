@@ -1,0 +1,45 @@
+<resources>
+    <string name="tfe_pe_app_name">TFL Pose Estimation</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: </string>
+    <string name="tfe_pe_tv_fps">Fps: %d</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_classification_value">- %s</string>
+    <string name="tfe_pe_tv_pose_classification">Pose Classification</string>
+    <string name="tfe_pe_tv_tracking">Tracker: </string>
+    <string name="tfe_pe_gpu_error">Movenet MultiPose does not support GPU. Fallback to CPU.</string>
+    <string name="pose_feedback">Pose Feedback will be shown here</string>
+
+    <!-- 버튼 텍스트 리소스 추가 -->
+    <string name="btn_pushup">팔굽혀펴기</string>
+    <string name="btn_plank">플랭크</string>
+    <string name="btn_situp">윗몸일으키기</string>
+    <string name="btn_lunge">런지</string>
+    <string name="btn_squat">스쿼트</string>
+
+    <!-- 운동 자세 피드백 관련 추가 문자열 -->
+    <string name="tfe_pe_feedback_good_form">좋은 자세입니다!</string>
+    <string name="tfe_pe_feedback_adjust_posture">자세를 조정하세요</string>
+    <string name="tfe_pe_feedback_go_lower">스쿼트 자세를 더 낮추세요.</string>
+    <string name="back_button_description">뒤로가기</string>
+
+    <string-array name="tfe_pe_models_array">
+        <item>Movenet Lightning</item>
+        <item>Movenet Thunder</item>
+        <item>Movenet MultiPose</item>
+        <item>Posenet</item>
+    </string-array>
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_tracker_array">
+        <item>Off</item>
+        <item>BoundingBox</item>
+        <item>Keypoint</item>
+    </string-array>
+</resources>
